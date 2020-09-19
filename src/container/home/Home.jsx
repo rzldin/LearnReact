@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
-import YoutubeComp from '../../component/YoutubeComp/YoutubeComp'
+import YoutubeComp from '../../component/YoutubeComp/YoutubeComp';
+import Product from '../../container/product/Product';
+import LifeCycleComp from '../LifeCycleComp/LifeCycleComp';
 
 class Home extends Component {
     render(){
@@ -28,6 +30,18 @@ class Home extends Component {
                     desc="23.021x di tonton. 1 Tahun yang lalu"
                 />
                 <YoutubeComp/>
+                <br/>
+                <br/>
+                <hr/>
+                <p>Belanja Ayam</p>
+                <hr/>
+                <Product/>
+                <br/>
+                <br/>
+                <hr/>
+                <p>Life Cycle Component</p>
+                <hr/>
+                <LifeCycleComp/>
             </div>
         );
     }
