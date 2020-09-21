@@ -17,7 +17,7 @@ class LifeCycleComp extends Component{
     componentDidMount(){
         setTimeout(() => {
             this.setState({
-                count:2
+                count:3
             })
         },3000)
     }

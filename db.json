@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "Post 2",
+      "body": "codeonce"
+    },
+    {
+      "id": 4,
+      "title": "Post 4",
+      "body": "xaverus"
+    },
+    {
+      "id": 5,
+      "title": "Post 5",
+      "body": "Laknat"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
